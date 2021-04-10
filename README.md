@@ -7,10 +7,11 @@ managing, running, and planning their table top role-playing games (TTRPG).
 
 ### Built With
 
-|Component|Supported Versions|Currently|
-|---------|-------|---------|
-|[Node.js](https://nodejs.org/en/)|>= 14.0.0|14.16.1|
-|[npm](https://www.npmjs.com/)|>= 7.0.0|7.9.0|
+| Component                         | Supported Versions | Currently |
+| --------------------------------- | ------------------ | --------- |
+| [Node.js](https://nodejs.org/en/) | >= 14.0.0          | 14.16.1   |
+| [npm](https://www.npmjs.com/)     | >= 7.0.0           | 7.9.0     |
+| [NestJS](https://nestjs.com/)     | >= 7.6.15          | 7.6.15    |
 
 ### Initial Setup
 
@@ -28,4 +29,3 @@ for [git](https://git-scm.com/) commit messages.
 [Conventional Commits Cheat Sheet](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index)
 as a succinct guide to making a valid commit message. You an add the `.gitmessage` template
 to the project's git configuration by running: `git config commit.template .gitmessage`
-  

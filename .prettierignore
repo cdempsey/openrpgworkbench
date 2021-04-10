@@ -1,0 +1,8 @@
+.github
+dist
+node_modules
+packages/**/*.d.ts
+
+LICENSE
+package.json
+package-lock.json

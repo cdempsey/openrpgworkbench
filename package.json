@@ -1,9 +1,29 @@
 {
   "name": "@openrpgworkbench/app",
   "version": "0.0.0",
+  "description": "Application for aiding Gamemasters (GMs) and players in managing, running, and planning their table top role-playing games (TTRPG)",
+  "author": {
+    "name": "Chris Dempsey",
+    "email": "cdallas@gmail.com",
+    "url": "https://github.com/cdempsey"
+  },
   "private": true,
   "scripts": {
-    "bootstrap": "npm install && lerna bootstrap --hoist"
+    "api:start": "lerna run start --scope=@openrpgworkbench/api",
+    "api:start:dev": "lerna run start:dev --scope=@openrpgworkbench/api",
+    "api:start:debug": "lerna run start:debug --scope=@openrpgworkbench/api",
+    "bootstrap": "npm install && lerna bootstrap --hoist",
+    "format": "lerna run format",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "start": "lerna run start",
+    "start:dev": "lerna run start:dev",
+    "start:debug": "lerna run start:debug",
+    "test": "lerna run test",
+    "test:watch": "lerna run test:watch",
+    "test:cov": "lerna run test:cov",
+    "test:debug": "lerna run test:debug",
+    "test:e2e": "lerna run test:e2e"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
